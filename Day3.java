@@ -1,6 +1,8 @@
 public class Main {
     
     public static void main (String[] args) throws Exception {
+	test();
+	    
         String[] forest = {
     		"....#...#####..##.#..##..#....#",
 		"..##.#.#.........#.#......##...",
@@ -333,6 +335,7 @@ public class Main {
                     countTrees(forest, 7, 1) *
                     countTrees(forest, 1, 2)
         ;
+	
         System.out.println("mult -> " + mult);
     }
     
@@ -365,8 +368,12 @@ public class Main {
 	    return n;
     }
     
-    public static void countTreesTest () {
-      String[] forest = {
+    public static void test () {
+	System.out.println("-------");
+	System.out.println(" TESTS ");
+	System.out.println("-------");
+	    
+	String[] forest = {
             "..##.......",
             "#...#...#..",
             ".#....#..#.",
@@ -386,6 +393,8 @@ public class Main {
         System.out.println("countTrees(forest, 7, 1) == 4 ? => " + (countTrees(forest, 7, 1) == 4));
         System.out.println("countTrees(forest, 1, 2) == 2 ? => " + (countTrees(forest, 1, 2) == 2));
         
+	System.out.println();
+	    
         long mult = countTrees(forest, 1, 1) * 
                     countTrees(forest, 3, 1) * 
                     countTrees(forest, 5, 1) * 
@@ -393,6 +402,9 @@ public class Main {
                     countTrees(forest, 1, 2)
         ;
         System.out.println("mult == 336 ? => " + (mult == 360));
+	    
+	System.out.println();
+	System.out.println();
     }
     
     
