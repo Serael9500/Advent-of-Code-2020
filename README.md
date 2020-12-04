@@ -3,8 +3,10 @@
 https://adventofcode.com/2020
 
 
-Day1: 1st & 2nd correct
+Day1: 2 stars
 
-Day2: 1st correct
+Day2: 1 star
 
-Day3: 1st & 2nd correct
+Day3: 2 stars
+
+Day4: 2 stars
