@@ -2217,6 +2217,7 @@ public class Main {
         return answeredQuestions.size();
     }
     
+    // FIXME: ArrayList.get() index out of bounds exception.
     public static int countDifferentQuestionsAnsweredByAll (String group) {
         ArrayList<Character> answeredQuestions = new ArrayList<Character>();
         HashMap<Character, Integer> count = new HashMap<Character, Integer>();
