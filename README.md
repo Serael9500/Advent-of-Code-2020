@@ -12,3 +12,5 @@ Day3: 2 stars
 Day4: 2 stars
 
 Day5: 1 star
+
+Day6: 1 star
