@@ -20,3 +20,5 @@ Day7: 1 star
 Day8: 2 stars
 
 Day9: 1 star
+
+Day10: 1 star
